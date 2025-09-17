@@ -36,8 +36,14 @@ melhor = [1, 10, 13, 14, 29, 37]  # Vetor em ordem crescente
 medio = [29, 10, 14, 37, 13, 1]  # Vetor em ordem aleatória
 pior = [37, 29, 14, 13, 10, 1]  # Vetor em ordem decrescente
 
+
+
 for vetor in [melhor, medio, pior]:  # chama o bubble sort para cada vetor
     bubble_sort(vetor.copy())
 
+
 for vetor in [melhor, medio, pior]:  # chama o insertion sort para cada vetor
     insertion_sort(vetor.copy())
+
+#Gustavo de Oliveira Moraes
+#Gabriel Miranda de Sousa
